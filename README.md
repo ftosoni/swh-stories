@@ -6,7 +6,18 @@ to display software curated by the Software Heritage Acquisition Process in a mu
 ## Available Scripts
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+In the project directory, you should first install the dependencies:
+
+### `npm install`
+
+Installs the necessary packages for the project.
+
+Then, ensure you have a `.env` file in the root directory with the following content (you can copy `.env.example` if available, or create it manually):
+```
+PORT=5000
+```
+
+Finally, you can run:
 
 ### `npm start`
 

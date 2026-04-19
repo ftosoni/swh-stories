@@ -14,6 +14,9 @@ export enum Images {
   pisa = '/images/pisa.png',
   swh = '/images/swh-full.png',
   unesco = '/images/unesco.png',
+  sloan = '/images/Alfred_P_Sloan_Foundation_Logo.png',
+  santAnna = '/images/Sant\'Anna_School_of_Advanced_Studies_Logo_ENG.png',
+  oki = '/images/Open_Knowledge_Initiatives_logo.png',
 }
 export const STORIES_API_ENDPOINT = 'https://stories.k2.services';
 export const STORIES_API_INRIA_COLLECTION_ID = 45;
@@ -30,11 +33,26 @@ export const RouteCollectionIdMap: Record<string, number> = {
 export const FooterLinks = [
   { name: 'Software Heritage', logo: Images.swh, url: SWH_URL },
   { name: 'Università Di Pisa', logo: Images.pisa, url: 'https://unipi.it' },
-  { name: 'UNESCO', logo: Images.unesco, url: 'https://unesco.org' },
+  {
+    name: 'Sant\'Anna School of Advanced Studies',
+    logo: Images.santAnna,
+    url: 'https://www.santannapisa.it/en',
+  },
+  {
+    name: 'IITH-OKI',
+    logo: Images.oki,
+    url: 'https://meta.wikimedia.org/wiki/Special:MyLanguage/IIITH-OKI',
+  },
   { name: 'INRIA', logo: Images.inria, url: 'https://www.inria.fr/en' },
   {
     name: 'INRIA La Fondation',
     logo: Images.inriaFoundation,
     url: 'https://www.inria.fr/en/inria-foundation-making-sense-digital-world',
   },
+  {
+    name: 'Alfred P. Sloan Foundation',
+    logo: Images.sloan,
+    url: 'https://sloan.org',
+  },
+  { name: 'UNESCO', logo: Images.unesco, url: 'https://unesco.org' },
 ];
